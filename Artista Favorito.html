@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de mi Artista Favorito</title>
+    <style>
+      
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-color: #121212;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #181818;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav a {
+            color: #b91d1d;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        .artist-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .album-cover {
+            width: 300px;
+            height: 300px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .song-list {
+            list-style-type: none;
+            padding: 0;
+            width: 100%;
+            max-width: 300px;
+            text-align: left;
+        }
+
+        .song-list li {
+            padding: 10px;
+            border-bottom: 1px solid #333;
+        }
+
+        aside {
+            background-color: #181818;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            max-width: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div style="display: flex; align-items: center;">
+            <img src="c:\Users\usuario\Downloads\Artista.webp" alt="Imagen del Artista" class="artist-image">
+            <h1>d4vd</h1>
+        </div>
+        <nav>
+            <a href="#descripcion">Descripción</a>
+            <a href="#canciones">Canciones</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Álbum: Petals to Thorns</h2>
+        <img src="c:\Users\usuario\Downloads\d4vd-1.jpg" alt="Portada del Álbum" class="album-cover">
+
+        <section id="canciones">
+            <h3>Lista de Canciones</h3>
+            <ul class="song-list">
+                <li>
+                    <p>1. Sleep Well</p>
+                    <audio controls>
+                        <source src="c:\Users\usuario\Downloads\y2mate.com - d4vd  Sleep Well Official Music Video.mp3" type="audio/mpeg">
+                        Tu navegador no pudo con el poder del mp3.
+                    </audio>
+                </li>
+                <li>
+                    <p>2. Here With Me</p>
+                    <audio controls>
+                        <source src="c:\Users\usuario\Downloads\y2mate.com - d4vd  Here With Me Official Music Video.mp3" type="audio/mpeg">
+                        Tu navegador no pudo con el poder del mp3.
+                    </audio>
+                </li>
+                <li>
+                    <p>3. You and I</p>
+                    <audio controls>
+                        <source src="c:\Users\usuario\Downloads\y2mate.com - d4vd  You and I Official Lyric Video.mp3" type="audio/mpeg">
+                        Tu navegador no pudo con el poder del mp3.
+                    </audio>
+                </li>
+            </ul>
+        </section>
+
+        <aside id="descripcion">
+            <h3>Descripción</h3>
+            <p>David Burke, un cantante y compositor estadounidense que saltó a la fama en 2022. Su estilo combina géneros como el bedroom pop, R&B y rock alternativo, creando canciones con una atmósfera melancólica y líricas introspectivas.</p>
+        </aside>
+    </div>
+
+</body>
+</html>
